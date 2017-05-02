@@ -342,7 +342,7 @@
             "type": "Microsoft.Automation/automationAccounts",
             "properties": {
                 "sku": {
-                    "name": "Basic"
+                    "name": "OMS"
                 }
             },
             "resources": [
