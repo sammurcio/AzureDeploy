@@ -63,13 +63,13 @@
             }
         }
     },
-    "variables": {
-        "_artifactsLocation": "https://raw.githubusercontent.com/krnese/AzureDeploy/master/OMS/MSOMS/Solutions/recoveryservices",
-        "nestedTemplates": {
-            "asrAnalytics": "[concat(variables('_artifactsLocation'), '/nestedtemplates/azureSiteRecovery.json')]",
-            "abAnalytics": "[concat(variables('_artifactsLocation'), '/nestedtemplates/azureBackup.json')]"
-        }
-    },
+  "variables": {
+    "_artifactsLocation": "https://raw.githubusercontent.com/sammurcio/AzureDeploy/master/OMS/MSOMS/Solutions/recoveryservices",
+    "nestedTemplates": {
+      "asrAnalytics": "[concat(variables('_artifactsLocation'), '/nestedtemplates/azureSiteRecovery.json')]",
+      "abAnalytics": "[concat(variables('_artifactsLocation'), '/nestedtemplates/azureBackup.json')]"
+    }
+  },
     "resources": [
         {
             "type": "Microsoft.Resources/deployments",
