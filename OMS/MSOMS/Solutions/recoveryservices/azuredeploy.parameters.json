@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "omsLogAnalyticsWorkspaceName": {
+      "value": "pres-use-oms"
+    },
+    "omsLogAnalyticsRegion": {
+      "value": "eastus"
+    },
+    "omsAutomationAccountName": {
+      "value": "pres-use-automation"
+    },
+    "omsAutomationRegion": {
+      "value": "eastus2"
+    },
+    "omsRecoveryVaultName": {
+      "value": "pres-use-recovery"
+    }
+  }
+}

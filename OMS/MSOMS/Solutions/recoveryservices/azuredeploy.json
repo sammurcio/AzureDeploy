@@ -48,20 +48,20 @@
                 "description": "Specify the name of your Recovery Vault you want to analyze"
             }
         },
-        "asrIngestScheduleGuid": {
-            "type": "string",
-            "defaultValue": "66533407-3d53-4131-a2a6-ead17a08fa0c",
-            "metadata": {
-                "description": "GUID for the schedule creation - create a unique before deploy"
-            }
-        },
-        "abIngestScheduleGuid": {
-            "type": "string",
-            "defaultValue": "0a75f68b-4e22-4f28-8859-06ce1e34b456",
-            "metadata": {
-                "description": "GUID for the schedule creation - create a unique before deploy"
-            }
+      "asrIngestScheduleGuid": {
+        "type": "string",
+        "defaultValue": "87e5b69c-28ab-4e11-bcd5-8d1c4fbac916",
+        "metadata": {
+          "description": "GUID for the schedule creation - create a unique before deploy"
         }
+      },
+      "abIngestScheduleGuid": {
+        "type": "string",
+        "defaultValue": "2e358052-6c37-4a11-8a12-4f0096e4973e",
+        "metadata": {
+          "description": "GUID for the schedule creation - create a unique before deploy"
+        }
+      }
     },
   "variables": {
     "_artifactsLocation": "https://raw.githubusercontent.com/sammurcio/AzureDeploy/master/OMS/MSOMS/Solutions/recoveryservices",
